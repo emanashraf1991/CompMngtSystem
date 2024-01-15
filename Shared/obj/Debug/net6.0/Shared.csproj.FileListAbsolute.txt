@@ -9,3 +9,4 @@ F:\CompanySystem\Shared\obj\Debug\net6.0\Shared.dll
 F:\CompanySystem\Shared\obj\Debug\net6.0\refint\Shared.dll
 F:\CompanySystem\Shared\obj\Debug\net6.0\Shared.pdb
 F:\CompanySystem\Shared\obj\Debug\net6.0\ref\Shared.dll
+F:\CompanySystem\Shared\obj\Debug\net6.0\Shared.sourcelink.json

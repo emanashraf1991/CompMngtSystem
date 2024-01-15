@@ -13,3 +13,6 @@ F:\CompanySystem\Service.Contracts\obj\Debug\net6.0\Service.Contracts.dll
 F:\CompanySystem\Service.Contracts\obj\Debug\net6.0\refint\Service.Contracts.dll
 F:\CompanySystem\Service.Contracts\obj\Debug\net6.0\Service.Contracts.pdb
 F:\CompanySystem\Service.Contracts\obj\Debug\net6.0\ref\Service.Contracts.dll
+F:\CompanySystem\Service.Contracts\obj\Debug\net6.0\Service.Contracts.sourcelink.json
+F:\CompanySystem\Service.Contracts\bin\Debug\net6.0\Entities.dll
+F:\CompanySystem\Service.Contracts\bin\Debug\net6.0\Entities.pdb

@@ -9,3 +9,4 @@ F:\CompanySystem\Entities\obj\Debug\net6.0\Entities.dll
 F:\CompanySystem\Entities\obj\Debug\net6.0\refint\Entities.dll
 F:\CompanySystem\Entities\obj\Debug\net6.0\Entities.pdb
 F:\CompanySystem\Entities\obj\Debug\net6.0\ref\Entities.dll
+F:\CompanySystem\Entities\obj\Debug\net6.0\Entities.sourcelink.json

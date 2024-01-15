@@ -173,6 +173,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "F:\\CompanySystem\\Entities\\Entities.csproj": {
+                "projectPath": "F:\\CompanySystem\\Entities\\Entities.csproj"
+              },
               "F:\\CompanySystem\\Shared\\Shared.csproj": {
                 "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj"
               }

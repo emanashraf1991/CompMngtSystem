@@ -135,6 +135,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Entities": "1.0.0",
           "Shared": "1.0.0"
         },
         "compile": {
@@ -385,11 +386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CompanySystem\\service\\Service.csproj",
+      "projectUniqueName": "F:\\CompanySystem\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "F:\\CompanySystem\\service\\Service.csproj",
+      "projectPath": "F:\\CompanySystem\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-      "outputPath": "F:\\CompanySystem\\service\\obj\\",
+      "outputPath": "F:\\CompanySystem\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config"
