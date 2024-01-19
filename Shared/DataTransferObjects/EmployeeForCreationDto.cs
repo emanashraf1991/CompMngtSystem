@@ -1,4 +1,6 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Shared
 {
-    public record EmployeeForCreationDto(string Name, int Age, string Position);
+    public record EmployeeForCreationDto : EmployeeForManipulationDto;
 }

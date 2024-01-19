@@ -1,4 +1,3 @@
-namespace Shared
-{
-    public record EmployeeForUpdateDto(string Name, int Age, string Position);
-}
+
+namespace Shared;
+public record EmployeeForUpdateDto : EmployeeForManipulationDto;
