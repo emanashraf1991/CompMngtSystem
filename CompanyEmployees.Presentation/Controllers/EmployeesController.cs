@@ -12,26 +12,26 @@ namespace CompanyEmployees.Presentation.Controllers
         private readonly IServiceManager _service;
         public EmployeesController(IServiceManager service) => _service = service;
         [HttpGet]
-        public IActionResult GetEmployeesForCompany(Guid companyId)
+        public async Task<IActionResult> GetEmployeesForCompany(Guid companyId)
         {
-            var employees = _service.EmployeeService.GetEmployees(companyId, trackChanges: false);
+            var employees = await _service.EmployeeService.GetEmployeesAsync(companyId, trackChanges: false);
             return Ok(employees);
         }
         [HttpGet("{id:guid}", Name = "GetEmployeeForCompany")]
-        public IActionResult GetEmployeeForCompany(Guid companyId, Guid id)
+        public async Task<IActionResult> GetEmployeeForCompany(Guid companyId, Guid id)
         {
-            var employee = _service.EmployeeService.GetEmployee(companyId, id, trackChanges: false);
+            var employee = await _service.EmployeeService.GetEmployeeAsync(companyId, id, trackChanges: false);
             return Ok(employee);
         }
         [HttpPost]
-        public IActionResult CreateEmployeeForCompany(Guid companyId, [FromBody] EmployeeForCreationDto employee)
+        public async Task<IActionResult> CreateEmployeeForCompany(Guid companyId, [FromBody] EmployeeForCreationDto employee)
         {
             if (employee is null)
                 return BadRequest("EmployeeForCreationDto object is null");
             if (!ModelState.IsValid)
                 return UnprocessableEntity(ModelState);
             var employeeToReturn =
-            _service.EmployeeService.CreateEmployeeForCompany(companyId, employee, trackChanges:
+           await _service.EmployeeService.CreateEmployeeForCompanyAsync(companyId, employee, trackChanges:
             false);
             return CreatedAtRoute("GetEmployeeForCompany", new
             {
@@ -48,7 +48,7 @@ namespace CompanyEmployees.Presentation.Controllers
             return NoContent();
         }
         [HttpPatch("{id:guid}")]
-        public IActionResult PartiallyUpdateEmployeeForCompany(Guid companyId, Guid id,
+        public async Task<IActionResult> PartiallyUpdateEmployeeForCompany(Guid companyId, Guid id,
                                 [FromBody] JsonPatchDocument<EmployeeForUpdateDto> patchDoc)
         {
             if (patchDoc is null)
@@ -57,14 +57,14 @@ namespace CompanyEmployees.Presentation.Controllers
             if (!ModelState.IsValid)
                 return UnprocessableEntity(ModelState);
 
-            var result = _service.EmployeeService.GetEmployeeForPatch(companyId, id,
+            var result = await _service.EmployeeService.GetEmployeeForPatchAsync(companyId, id,
            compTrackChanges: false, empTrackChanges: true);
             patchDoc.ApplyTo(result.employeeToPatch, ModelState);
 
             TryValidateModel(result.employeeToPatch);
 
-            _service.EmployeeService.SaveChangesForPatch(result.employeeToPatch,
-            result.employeeEntity);
+            await _service.EmployeeService.SaveChangesForPatch(result.employeeToPatch,
+             result.employeeEntity);
             return NoContent();
         }
         [HttpPut("{id:guid}")]

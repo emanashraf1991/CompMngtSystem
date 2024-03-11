@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EDJoTcxuK91kOmzMzdtsYwuLjZUTZ1JVxhD8PAA8f6PlbQ9cyBda62HZifKf99kVOYJYfl5aFNfeeatjgBCBQA==",
+  "dgSpecHash": "01qrR6MESOwYsCM41zkTy0GBiu4O/EQFKssddIBMp54hrii1KrrslYSVKc5EcLfFkkEXSKXc/A/bS46uou02Kw==",
   "success": true,
   "projectFilePath": "F:\\CompanySystem\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
@@ -15,9 +15,9 @@
     "C:\\Users\\MR.SAMEH\\.nuget\\packages\\nlog.extensions.logging\\5.3.8\\nlog.extensions.logging.5.3.8.nupkg.sha512",
     "C:\\Users\\MR.SAMEH\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\MR.SAMEH\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512"
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }

@@ -10,7 +10,6 @@ F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyEmployees
 F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyEmployees.Presentation.AssemblyInfoInputs.cache
 F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyEmployees.Presentation.AssemblyInfo.cs
 F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyEmployees.Presentation.csproj.CoreCompileInputs.cache
-F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyEmployees.Presentation.csproj.CopyComplete
 F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyEmployees.Presentation.dll
 F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\refint\CompanyEmployees.Presentation.dll
 F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyEmployees.Presentation.pdb
@@ -18,3 +17,4 @@ F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\ref\CompanyEmplo
 F:\CompanySystem\CompanyEmployees.Presentation\bin\Debug\net6.0\Entities.dll
 F:\CompanySystem\CompanyEmployees.Presentation\bin\Debug\net6.0\Entities.pdb
 F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyEmployees.Presentation.sourcelink.json
+F:\CompanySystem\CompanyEmployees.Presentation\obj\Debug\net6.0\CompanyE.FCF99C45.Up2Date

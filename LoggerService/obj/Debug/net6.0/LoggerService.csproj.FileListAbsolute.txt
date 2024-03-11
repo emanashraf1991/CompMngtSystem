@@ -10,9 +10,9 @@ F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.GeneratedMSBuildEd
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfoInputs.cache
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfo.cs
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CoreCompileInputs.cache
-F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CopyComplete
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.dll
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.pdb
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.sourcelink.json
+F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerSe.E7AEA5A8.Up2Date

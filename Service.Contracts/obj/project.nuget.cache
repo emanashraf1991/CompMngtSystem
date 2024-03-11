@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Bi1B+uXd9u+gHvNhdzUql0rK/BEszTZPXOL8iYTHcq+lgNT9WnlMk2XJbmiGwPTuheS6gMvhU9pVNocp6NUIZQ==",
+  "dgSpecHash": "/gegt8d5ZTiDlpWP04/TVLoQDE0pqBZU+tg2XT+gP7fvHANsm7/Y5nspCfY/wYruX1jrhP/3L6jVjvKK5zReQw==",
   "success": true,
-  "projectFilePath": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
+  "projectFilePath": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }

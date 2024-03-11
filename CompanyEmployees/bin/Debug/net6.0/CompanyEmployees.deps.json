@@ -10,7 +10,6 @@
         "dependencies": {
           "CompanyEmployees.Presentation": "1.0.0",
           "LoggerService": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.12",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.10",
           "Repository": "1.0.0",

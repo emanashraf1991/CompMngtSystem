@@ -10,3 +10,4 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Shared
 build_property.ProjectDir = F:\CompanySystem\Shared\
 build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -3658,19 +3658,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+      "projectUniqueName": "f:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
       "projectName": "CompanyEmployees.Presentation",
-      "projectPath": "F:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+      "projectPath": "f:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
       "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-      "outputPath": "F:\\CompanySystem\\CompanyEmployees.Presentation\\obj\\",
+      "outputPath": "f:\\CompanySystem\\CompanyEmployees.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "F:\\PlayProj\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -3678,8 +3680,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
-              "projectPath": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
+            "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
+              "projectPath": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
             }
           }
         }
@@ -3690,7 +3692,9 @@
         ]
       },
       "restoreAuditProperties": {
-        "enableAudit": "default"
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3724,15 +3728,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.19, 6.0.19]"
+            "version": "[6.0.27, 6.0.27]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.19, 6.0.19]"
+            "version": "[6.0.27, 6.0.27]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.19, 6.0.19]"
+            "version": "[6.0.27, 6.0.27]"
           }
         ],
         "frameworkReferences": {
@@ -3740,7 +3744,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

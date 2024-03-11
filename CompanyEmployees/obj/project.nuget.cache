@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/sYm8MT/dTMVXcnCVOZ6EAqXxX+bPJn1mkNdL7u9DFOGJNRkhJvV9PSMn6jDjcCziNxMWpTXeR7HmDGCHlVX1Q==",
+  "dgSpecHash": "+DD2fUFsUAIPEKlIUJVpcFzJvZciYjIC/bv1PbiMG7qDz7YUs6hsMbPD65qn9MlSwJySDWBpC65LA/HIQeFw5w==",
   "success": true,
-  "projectFilePath": "F:\\CompanySystem\\CompanyEmployees\\CompanyEmployees.csproj",
+  "projectFilePath": "f:\\CompanySystem\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MR.SAMEH\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\MR.SAMEH\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -140,10 +140,10 @@
     "C:\\Users\\MR.SAMEH\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\MR.SAMEH\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\MR.SAMEH\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.19\\microsoft.netcore.app.host.win-x64.6.0.19.nupkg.sha512"
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }

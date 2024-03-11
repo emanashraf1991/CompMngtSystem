@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "aaw2LPMY20D5UTpEGVBXw6GsoOtS9YuJdxYFS4lFFH5JyYyTRNo7+9uQMhiw1z+OeVJ9Y2xDY88me/zStc/F7g==",
+  "dgSpecHash": "EqwDy8o0jcUQo0vRDnZqryEEIfVQpdU/9C/FMcMG42yZZXg/zhRvBKsG4SwkOKETWvUfX36Y8gioVODhuZYxyg==",
   "success": true,
-  "projectFilePath": "F:\\CompanySystem\\Shared\\Shared.csproj",
+  "projectFilePath": "f:\\CompanySystem\\Shared\\Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\MR.SAMEH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }
