@@ -19,13 +19,15 @@ namespace Service
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<EmployeeDto>> GetEmployeesAsync(Guid companyId, bool trackChanges)
+        public async Task<(IEnumerable<EmployeeDto> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges)
         {
+            if (!employeeParameters.ValidAgeRange)
+throw new MaxAgeRangeBadRequestException();
             await CheckIfCompanyExists(companyId, trackChanges);
 
-            var employeesFromDb = await _repository.Employee.GetEmployeesAsync(companyId, trackChanges);
-            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
-            return employeesDto;
+            var employeesWithMetadata = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges);
+            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesWithMetadata);
+            return (employees: employeesDto, metaData: employeesWithMetadata.MetaData);
         }
         public async Task<EmployeeDto> CreateEmployeeForCompanyAsync(Guid companyId, EmployeeForCreationDto
                    employeeForCreation, bool trackChanges)
@@ -34,7 +36,7 @@ namespace Service
 
             var employeeEntity = _mapper.Map<Employee>(employeeForCreation);
             _repository.Employee.CreateEmployeeForCompany(companyId, employeeEntity);
-            _repository.SaveAsync();
+            await _repository.SaveAsync();
             var employeeToReturn = _mapper.Map<EmployeeDto>(employeeEntity);
             return employeeToReturn;
         }
@@ -53,7 +55,7 @@ namespace Service
 
             var employeeForCompany = await GetEmployeeForCompanyAndCheckIfItExists(companyId, employeeId, trackChanges);
             _repository.Employee.DeleteEmployee(employeeForCompany);
-            _repository.SaveAsync();
+            await _repository.SaveAsync();
         }
         public async Task UpdateEmployeeForCompany(Guid companyId, Guid id,
                        EmployeeForUpdateDto employeeForUpdate, bool compTrackChanges, bool empTrackChanges)
@@ -61,7 +63,7 @@ namespace Service
             await CheckIfCompanyExists(companyId, compTrackChanges);
             var employeeEntity = await GetEmployeeForCompanyAndCheckIfItExists(companyId, id, empTrackChanges);
             _mapper.Map(employeeForUpdate, employeeEntity);
-            _repository.SaveAsync();
+            await _repository.SaveAsync();
 
         }
 

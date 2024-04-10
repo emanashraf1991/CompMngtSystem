@@ -31,6 +31,9 @@
             "projectReferences": {
               "F:\\CompanySystem\\Entities\\Entities.csproj": {
                 "projectPath": "F:\\CompanySystem\\Entities\\Entities.csproj"
+              },
+              "F:\\CompanySystem\\Shared\\Shared.csproj": {
+                "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj"
               }
             }
           }
@@ -91,6 +94,81 @@
         "projectPath": "F:\\CompanySystem\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
         "outputPath": "F:\\CompanySystem\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "F:\\PlayProj\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\CompanySystem\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\CompanySystem\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
+        "outputPath": "F:\\CompanySystem\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",

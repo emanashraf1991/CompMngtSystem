@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\CompanySystem\\Shared\\Shared.csproj": {}
+    "F:\\CompanySystem\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "f:\\CompanySystem\\Shared\\Shared.csproj": {
+    "F:\\CompanySystem\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\CompanySystem\\Shared\\Shared.csproj",
+        "projectUniqueName": "F:\\CompanySystem\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "f:\\CompanySystem\\Shared\\Shared.csproj",
+        "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\CompanySystem\\Shared\\obj\\",
+        "outputPath": "F:\\CompanySystem\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",

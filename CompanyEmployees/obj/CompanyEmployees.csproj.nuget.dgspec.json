@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\CompanySystem\\CompanyEmployees\\CompanyEmployees.csproj": {}
+    "F:\\CompanySystem\\companyemployees\\CompanyEmployees.csproj": {}
   },
   "projects": {
-    "f:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+    "F:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "projectUniqueName": "F:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
         "projectName": "CompanyEmployees.Presentation",
-        "projectPath": "f:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "projectPath": "F:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\CompanySystem\\CompanyEmployees.Presentation\\obj\\",
+        "outputPath": "F:\\CompanySystem\\CompanyEmployees.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
+              "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -97,14 +97,14 @@
         }
       }
     },
-    "f:\\CompanySystem\\CompanyEmployees\\CompanyEmployees.csproj": {
+    "F:\\CompanySystem\\companyemployees\\CompanyEmployees.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\CompanySystem\\CompanyEmployees\\CompanyEmployees.csproj",
+        "projectUniqueName": "F:\\CompanySystem\\companyemployees\\CompanyEmployees.csproj",
         "projectName": "CompanyEmployees",
-        "projectPath": "f:\\CompanySystem\\CompanyEmployees\\CompanyEmployees.csproj",
+        "projectPath": "F:\\CompanySystem\\companyemployees\\CompanyEmployees.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\CompanySystem\\CompanyEmployees\\obj\\",
+        "outputPath": "F:\\CompanySystem\\companyemployees\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -122,8 +122,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "f:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
-                "projectPath": "f:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
+              "F:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+                "projectPath": "F:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
               },
               "F:\\CompanySystem\\LoggerService\\LoggerService.csproj": {
                 "projectPath": "F:\\CompanySystem\\LoggerService\\LoggerService.csproj"
@@ -235,6 +235,9 @@
             "projectReferences": {
               "F:\\CompanySystem\\Entities\\Entities.csproj": {
                 "projectPath": "F:\\CompanySystem\\Entities\\Entities.csproj"
+              },
+              "F:\\CompanySystem\\Shared\\Shared.csproj": {
+                "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj"
               }
             }
           }
@@ -499,6 +502,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.3.10, )"
             }
           },
           "imports": [
@@ -535,14 +542,14 @@
         }
       }
     },
-    "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
+    "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
         "projectName": "Service.Contracts",
-        "projectPath": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
+        "projectPath": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\CompanySystem\\Service.Contracts\\obj\\",
+        "outputPath": "F:\\CompanySystem\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -563,8 +570,8 @@
               "F:\\CompanySystem\\Entities\\Entities.csproj": {
                 "projectPath": "F:\\CompanySystem\\Entities\\Entities.csproj"
               },
-              "f:\\CompanySystem\\Shared\\Shared.csproj": {
-                "projectPath": "f:\\CompanySystem\\Shared\\Shared.csproj"
+              "F:\\CompanySystem\\Shared\\Shared.csproj": {
+                "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj"
               }
             }
           }
@@ -645,8 +652,8 @@
               "F:\\CompanySystem\\Contracts\\Contracts.csproj": {
                 "projectPath": "F:\\CompanySystem\\Contracts\\Contracts.csproj"
               },
-              "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
+              "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -705,14 +712,14 @@
         }
       }
     },
-    "f:\\CompanySystem\\Shared\\Shared.csproj": {
+    "F:\\CompanySystem\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\CompanySystem\\Shared\\Shared.csproj",
+        "projectUniqueName": "F:\\CompanySystem\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "f:\\CompanySystem\\Shared\\Shared.csproj",
+        "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\CompanySystem\\Shared\\obj\\",
+        "outputPath": "F:\\CompanySystem\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",

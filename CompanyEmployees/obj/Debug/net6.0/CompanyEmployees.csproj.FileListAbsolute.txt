@@ -95,3 +95,4 @@ F:\CompanySystem\CompanyEmployees\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Newt
 F:\CompanySystem\CompanyEmployees\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 F:\CompanySystem\CompanyEmployees\obj\Debug\net6.0\CompanyEmployees.sourcelink.json
 F:\CompanySystem\companyemployees\obj\Debug\net6.0\CompanyE.34C766B8.Up2Date
+F:\CompanySystem\companyemployees\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

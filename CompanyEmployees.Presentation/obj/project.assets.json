@@ -3658,11 +3658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+      "projectUniqueName": "F:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
       "projectName": "CompanyEmployees.Presentation",
-      "projectPath": "f:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+      "projectPath": "F:\\CompanySystem\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
       "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-      "outputPath": "f:\\CompanySystem\\CompanyEmployees.Presentation\\obj\\",
+      "outputPath": "F:\\CompanySystem\\CompanyEmployees.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3680,8 +3680,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
-              "projectPath": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
+            "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
+              "projectPath": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
             }
           }
         }

@@ -14,3 +14,5 @@ F:\CompanySystem\Contracts\obj\Debug\net6.0\Contracts.pdb
 F:\CompanySystem\Contracts\obj\Debug\net6.0\ref\Contracts.dll
 F:\CompanySystem\Contracts\obj\Debug\net6.0\Contracts.sourcelink.json
 F:\CompanySystem\Contracts\obj\Debug\net6.0\Contracts.csproj.Up2Date
+F:\CompanySystem\Contracts\bin\Debug\net6.0\Shared.dll
+F:\CompanySystem\Contracts\bin\Debug\net6.0\Shared.pdb

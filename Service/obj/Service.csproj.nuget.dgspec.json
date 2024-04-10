@@ -31,6 +31,9 @@
             "projectReferences": {
               "F:\\CompanySystem\\Entities\\Entities.csproj": {
                 "projectPath": "F:\\CompanySystem\\Entities\\Entities.csproj"
+              },
+              "F:\\CompanySystem\\Shared\\Shared.csproj": {
+                "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj"
               }
             }
           }
@@ -158,14 +161,14 @@
         }
       }
     },
-    "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
+    "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
         "projectName": "Service.Contracts",
-        "projectPath": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
+        "projectPath": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\CompanySystem\\Service.Contracts\\obj\\",
+        "outputPath": "F:\\CompanySystem\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -186,8 +189,8 @@
               "F:\\CompanySystem\\Entities\\Entities.csproj": {
                 "projectPath": "F:\\CompanySystem\\Entities\\Entities.csproj"
               },
-              "f:\\CompanySystem\\Shared\\Shared.csproj": {
-                "projectPath": "f:\\CompanySystem\\Shared\\Shared.csproj"
+              "F:\\CompanySystem\\Shared\\Shared.csproj": {
+                "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj"
               }
             }
           }
@@ -268,8 +271,8 @@
               "F:\\CompanySystem\\Contracts\\Contracts.csproj": {
                 "projectPath": "F:\\CompanySystem\\Contracts\\Contracts.csproj"
               },
-              "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "f:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
+              "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "F:\\CompanySystem\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -328,14 +331,14 @@
         }
       }
     },
-    "f:\\CompanySystem\\Shared\\Shared.csproj": {
+    "F:\\CompanySystem\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\CompanySystem\\Shared\\Shared.csproj",
+        "projectUniqueName": "F:\\CompanySystem\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "f:\\CompanySystem\\Shared\\Shared.csproj",
+        "projectPath": "F:\\CompanySystem\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\MR.SAMEH\\.nuget\\packages\\",
-        "outputPath": "f:\\CompanySystem\\Shared\\obj\\",
+        "outputPath": "F:\\CompanySystem\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MR.SAMEH\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,8 +10,11 @@ namespace CompanyEmployees.Presentation.ActionFilters
         {
             var action = context.RouteData.Values["action"];
             var controller = context.RouteData.Values["controller"];
+
+            // Check if action arguments contain a parameter that contains "Dto"
             var param = context.ActionArguments
-            .SingleOrDefault(x => x.Value.ToString().Contains("Dto")).Value;
+                .FirstOrDefault(x => x.Value != null && x.Value.ToString().Contains("Dto")).Value;
+
             if (param is null)
             {
                 context.Result = new BadRequestObjectResult($"Object is null. Controller:  {controller}, action: {action}    ");

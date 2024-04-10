@@ -14,7 +14,11 @@ namespace CompanyEmployees.Extensions
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.AllowAnyOrigin().WithHeaders("accept", "content-type").WithMethods("Get", "Post");
+                    options.AddPolicy("CorsPolicy", builder =>
+ builder.AllowAnyOrigin()
+ .AllowAnyMethod()
+ .AllowAnyHeader()
+ .WithExposedHeaders("X-Pagination"));
                 });
             });
         public static void ConfigureIISIntegration(this IServiceCollection services)

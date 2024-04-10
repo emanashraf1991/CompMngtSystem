@@ -16,3 +16,5 @@ F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.pdb
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerService.sourcelink.json
 F:\CompanySystem\LoggerService\obj\Debug\net6.0\LoggerSe.E7AEA5A8.Up2Date
+F:\CompanySystem\LoggerService\bin\Debug\net6.0\Shared.dll
+F:\CompanySystem\LoggerService\bin\Debug\net6.0\Shared.pdb
