@@ -15,7 +15,7 @@ public class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
     .FilterEmployees(employeeParameters.MinAge, employeeParameters.MaxAge)
     .Search(employeeParameters.SearchTerm)
     .OrderBy(e => e.Name)
-    .Sort(employeeParameters.OrderBy)
+    //.Sort(employeeParameters.OrderBy)
     .ToListAsync();
         return PagedList<Employee>
         .ToPagedList(employees, employeeParameters.PageNumber,
